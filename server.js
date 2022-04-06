@@ -45,6 +45,8 @@ app.get("/api/welcome", (req, res) => {
 app.use("/api/products", productRoutes);
 app.use("/api/user", authRoutes);
 
+console.log(process.env.DBHOST);
+
 const PORT = process.env.PORT || 4000; //if there's no setting it will run 4000
 app.listen(PORT, function () {
   console.log("Server is running on port: " + PORT);
