@@ -1,0 +1,11 @@
+npm run start-dev
+
+installed library -> joi for validations
+bycrypt to hash passwords
+jsonwebtoken
+
+verifytoken -> validate tokens
+we can verify each route or all the routes in the server.js
+
+GLORY OF REST
+level 3 maturity -> links in routes. tells the client the different endpoints. providing links
